@@ -10,10 +10,6 @@ body {
     padding: 25px;
 }
 
-.container {
-    width: 1440px;
-}
-
 .logo-titulo {
     display: flex;
     margin-bottom: 10px;
@@ -96,9 +92,10 @@ a:hover {
 }
 
 
-/*@media (max-width: 375px) 
+@media (max-width: 1300px) {
     .contexto {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     .texto {
@@ -124,4 +121,4 @@ a:hover {
         margin-top: 30px;
         justify-content: center;
     }
-}*/
+}
